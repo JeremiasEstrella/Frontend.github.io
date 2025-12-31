@@ -39,12 +39,17 @@ body {
 }
 
 header {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .cont_padre1 {
+  width: 100%;
   background-color: var(--azul);
   color: white;
   display: flex;
@@ -55,12 +60,14 @@ header {
 }
 
 .primerheader {
+  width: 100%;
   display: flex;
   margin-left: 20px;
   flex-direction: row;
 }
 
 .secondheader {
+  width: 10%;
   margin: 10px;
 }
 
@@ -81,9 +88,14 @@ header {
   margin: 2px;
 }
 .flexs {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .icono_circulo {
@@ -104,8 +116,10 @@ header {
 }
 
 nav {
-  height: 50px;
+  width: 100%;
+  height: auto;
   display: flex;
+  margin: auto;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -118,21 +132,14 @@ nav a {
   align-items: center;
 }
 
-nav a:nth-child(5) {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: var(--azul);
-  padding: 10px 20px;
-  align-items: center;
-}
 nav a:hover {
-  padding: 10px 10px;
+  padding: 4px;
   background-color: var(--azul);
   color: white;
 }
 .contenedor_arriba {
   width: 40%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -153,6 +160,7 @@ nav a:hover {
   text-align: center;
 }
 .slide {
+  width: 100%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,8 +203,9 @@ nav a:hover {
 }
 
 .c1 {
-  margin-top: 20px;
-  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -247,7 +256,7 @@ nav a:hover {
 }
 
 .c3 {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
 }
 ul.tabs {
@@ -258,8 +267,7 @@ ul.tabs {
   align-items: center;
 }
 .ancho {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -377,6 +385,11 @@ html ul.tabs li.active a:hover {
 }
 span {
   text-align: end;
+}
+
+.tab_content iframe {
+  width: 300px;
+  height: 500px;
 }
 .dos {
   width: 100%;

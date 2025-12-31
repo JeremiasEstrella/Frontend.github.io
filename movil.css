@@ -170,4 +170,10 @@
     align-items: center;
     flex-wrap: nowrap;
   }
+
+  .tab_content iframe {
+    width: 100px;
+    height: 100px;
+    image-rendering: auto;
+  }
 }
