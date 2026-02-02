@@ -3,7 +3,7 @@
   --azul: #0959a5;
   --border: 1px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 768px) {
   header {
     flex-direction: column;
     justify-content: flex-start;
@@ -73,7 +73,7 @@
   }
 
   .slide {
-    height: 600px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -175,5 +175,6 @@
     width: 100px;
     height: 100px;
     image-rendering: auto;
+    
   }
 }
